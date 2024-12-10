@@ -919,7 +919,7 @@ int server_start_and_run(int argc, char** argv) {
   int result;
   int i = 0;
 
-  set_unhandled_exceptions_filter();
+  //set_unhandled_exceptions_filter();
   sv_options.so_max_clients = kSVDefaultUnlimitedConnections;
   sv_options.so_port = _strdup(kSVDefaultPort);
   sv_options.so_thread_to_processor_ratio = kSVDefaultThreadToProcessorRatio;
