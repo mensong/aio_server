@@ -20,7 +20,7 @@ STAT_FLAGS =
 !IF "$(CFG)" == "Debug x86"
 
 CC      = cl.exe
-CFLAGS  = /nologo /Zi /Od /W4 /WX /MDd /RTC1 /D__OS_WINDOWS__                 \
+CFLAGS  = /nologo /Zi /Od /W4 /MDd /RTC1 /D__OS_WINDOWS__                 \
           /D__DEBUG_ENABLED__ /D_DEBUG /DDEBUG /c /wd4127											\
 					/D_WIN32_WINNT=0x0600 /D_WIN32_WINDOWS=0x0600 /DWINVER=0x600
 LINK32  = link.exe
